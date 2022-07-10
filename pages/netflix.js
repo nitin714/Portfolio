@@ -1,10 +1,11 @@
-import Image from "next/image";
 import React from "react";
-import netflixImg from "../public/assets/projects/netflix.png";
-import { RiRadioButtonFill } from "react-icons/ri";
+import Image from "next/image";
 import Link from "next/link";
+import netflixImg from "../public/assets/projects/netflix.png";
+import { TbArrowBackUp } from "react-icons/tb";
+import { RiRadioButtonFill } from "react-icons/ri";
 
-const netflix = () => {
+function netflix() {
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
@@ -16,6 +17,11 @@ const netflix = () => {
           src={netflixImg}
           alt="/"
         />
+        <div className="absolute top-[20%] left-[12%] translate-x-[-50%] translate-y-[-50%] z-10 p-4 bg-white rounded-full">
+          <Link href="/#projects">
+            <TbArrowBackUp size={22} />
+          </Link>
+        </div>
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
           <h2 className="py-2">Netflix Clone</h2>
           <h3>React JS / Tailwind / Firebase</h3>
@@ -72,12 +78,9 @@ const netflix = () => {
             </div>
           </div>
         </div>
-        <Link href="/#projects">
-          <p className="underline cursor-pointer">Back</p>
-        </Link>
       </div>
     </div>
   );
-};
+}
 
 export default netflix;

@@ -1,9 +1,9 @@
-import Image from "next/image";
 import React from "react";
-import airbnbImg from "../public/assets/projects/airbnb.png";
-import { RiRadioButtonFill } from "react-icons/ri";
-import { TbArrowBackUp } from "react-icons/tb";
+import Image from "next/image";
 import Link from "next/link";
+import airbnbImg from "../public/assets/projects/airbnb.png";
+import { TbArrowBackUp } from "react-icons/tb";
+import { RiRadioButtonFill } from "react-icons/ri";
 
 function airbnb() {
   return (
@@ -69,9 +69,6 @@ function airbnb() {
             </div>
           </div>
         </div>
-        {/* <Link href="/#projects">
-          <p className="underline cursor-pointer">Back</p>
-        </Link> */}
       </div>
     </div>
   );
