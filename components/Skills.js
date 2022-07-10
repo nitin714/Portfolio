@@ -37,9 +37,9 @@ const Skills = () => {
           <SkillItem img={Python} title="Python" />
           <SkillItem img={Pandas} title="Pandas" />
           <SkillItem img={Numpy} title="Numpy" />
-          <SkillItem img={ScikitLearn} title="scikit-learn" />
+          <SkillItem img={ScikitLearn} title="Scikit Learn" />
           <SkillItem img={Matplotlib} title="Matplotlib" />
-          <SkillItem img={BeautifulSoup} title="BeautifulSoup" />
+          <SkillItem img={BeautifulSoup} title="Beautiful Soup" />
           <SkillItem img={SQL} title="SQL" />
           <SkillItem img={D3} title="D3" />
         </div>
