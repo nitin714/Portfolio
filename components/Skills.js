@@ -7,19 +7,20 @@ import Tailwind from "../public/assets/skills/tailwind.png";
 import Github from "../public/assets/skills/github1.png";
 import Firebase from "../public/assets/skills/firebase.png";
 import NextJS from "../public/assets/skills/nextjs.png";
-import Python from "../public/assets/skills/python.png";
-import Pandas from "../public/assets/skills/pandas.png";
-import Numpy from "../public/assets/skills/numpy.png";
-import ScikitLearn from "../public/assets/skills/scikitlearn.png";
-import Matplotlib from "../public/assets/skills/matplotlib.png";
+import Python from "../public/assets/skills/python.svg";
+import Pandas from "../public/assets/skills/pandas.svg";
+import Numpy from "../public/assets/skills/numpy.svg";
+import ScikitLearn from "../public/assets/skills/scikitlearn.svg";
+import Matplotlib from "../public/assets/skills/matplotlib.svg";
 import BeautifulSoup from "../public/assets/skills/beautifulsoup.png";
 import SQL from "../public/assets/skills/sql.png";
+import D3 from "../public/assets/skills/d3.svg";
 import SkillItem from "./SkillItem";
 
 const Skills = () => {
   return (
     <div id="skills" className="w-full lg:h-screen p-2 pt-6">
-      <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full py-16">
+      <div className="max-w-[1240px] mx-auto flex flex-col h-full py-16">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Skills
         </p>
@@ -40,96 +41,7 @@ const Skills = () => {
           <SkillItem img={Matplotlib} title="Matplotlib" />
           <SkillItem img={BeautifulSoup} title="BeautifulSoup" />
           <SkillItem img={SQL} title="SQL" />
-          {/* <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image src={Html} width="64px" height="64px" alt="/" />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>HTML</h3>
-              </div>
-            </div>
-          </div> */}
-          {/* <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image src={Css} width="64px" height="64px" alt="/" />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>CSS</h3>
-              </div>
-            </div>
-          </div> */}
-          {/* <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image src={Javascript} width="64px" height="64px" alt="/" />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>JavaScript</h3>
-              </div>
-            </div>
-          </div> */}
-          {/* <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image src={ReactImg} width="64px" height="64px" alt="/" />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>React</h3>
-              </div>
-            </div>
-          </div> */}
-          {/* <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image src={Tailwind} width="64px" height="64px" alt="/" />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>Tailwind</h3>
-              </div>
-            </div>
-          </div> */}
-          {/* <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image src={Firebase} width="64px" height="64px" alt="/" />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>Firebase</h3>
-              </div>
-            </div>
-          </div> */}
-          {/* <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image src={Github} width="64px" height="64px" alt="/" />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>Github</h3>
-              </div>
-            </div>
-          </div> */}
-          {/* <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image src={NextJS} width="64px" height="64px" alt="/" />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>Next</h3>
-              </div>
-            </div>
-          </div> */}
-          {/* <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image src={Python} width="64px" height="64px" alt="/" />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>Python</h3>
-              </div>
-            </div>
-          </div> */}
+          <SkillItem img={D3} title="D3" />
         </div>
       </div>
     </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { AiOutlineMail } from "react-icons/ai";
+import { AiOutlineCodepen, AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import Link from "next/link";
@@ -19,7 +19,7 @@ function Main() {
             I’m focused on building responsive front-end web applications while
             learning back-end technologies and data science.
           </p>
-          <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
+          <div className="hidden md:flex items-center justify-between max-w-[400px] m-auto py-4">
             <a
               href="https://www.linkedin.com/in/nitin-vadhiya-b0226113a/"
               target="_blank"
@@ -36,6 +36,15 @@ function Main() {
             >
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaGithub />
+              </div>
+            </a>
+            <a
+              href="https://codepen.io/nitin714"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <AiOutlineCodepen />
               </div>
             </a>
             <Link href="/#contact">
