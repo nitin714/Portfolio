@@ -9,7 +9,7 @@ const resume = () => {
       <h1 className="flex flex-col top-1/2 mx-auto p-2 justify-center items-center">
         Resume
       </h1>
-      <Link href="/#projects">
+      <Link href="/">
         <p className="underline cursor-pointer">Back</p>
       </Link>
     </div>

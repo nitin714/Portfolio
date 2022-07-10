@@ -5,29 +5,25 @@ import Link from "next/link";
 
 function About() {
   return (
-    <div
-      id="about"
-      className="w-full px-4 md:px-12 md:h-screen p-2 flex items-center py-16"
-    >
-      <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
+    <div id="about" className="w-full md:h-screen p-2 flex items-center pt-10">
+      <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8 py-16">
         <div className="flex flex-col col-span-2">
           <p className="uppercase text-xl tracking-widest text-[#5651e5]">
             About
           </p>
           <h2 className="py-4">Who I Am</h2>
-          <p className="py-2 text-gray-600">I am not your average developer</p>
           <p className="py-2 text-gray-600">
             I have spent the last 2.6 years as the front end web developer. I'm
-            Data Science enthusiast. Currently learning React, Nextjs, Tailwind
-            for web development and Data Science.
+            Data Science enthusiast so following the path i've chosen. Currently
+            learning data science and react, nextjs, tailwind for web
+            development.
           </p>
           <p className="py-2 text-gray-600">
-            Fascinated with how intricate Data Science is I was quickly drawn to
-            learn more. I started learning python and related tools like pandas,
-            numpy, scikit-learn. Data analysis and was even more enthused with
-            making websites interactive. I am now spending my time building
-            projects with React JS, Firebase, tailwind and learning new
-            technologies.
+            Fascinated with how intricate data science is, I was quickly drawn
+            to learn more. I started learning python and related tools like
+            pandas, numpy, scikit-learn and more for data science. I am now
+            spending my time building projects with Next JS, Firebase, tailwind
+            and learning new technologies.
           </p>
           <Link href="/#projects">
             <p className="w-72 py-2 text-gray-600 underline cursor-pointer">

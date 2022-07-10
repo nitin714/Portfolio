@@ -12,7 +12,7 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>My Portfolio</title>
-        <link rel="icon" href="/fav.png" />
+        <link rel="icon" href="/narutoheadbandsign.webp" />
       </Head>
       <Navbar />
       <Main />
