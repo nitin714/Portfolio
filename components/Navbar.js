@@ -59,7 +59,7 @@ const Navbar = () => {
           : "fixed w-full h-20 z-[100]"
       }
     >
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+      <div className="py-4 flex justify-between w-full h-full px-2 2xl:px-16">
         <div />
         {/* <Link href="/">
           <a>
@@ -73,23 +73,26 @@ const Navbar = () => {
           </a>
         </Link> */}
         <div>
-          <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
-            <li className="ml-10 text-sm uppercase hover:border-b">
+          <ul
+            style={{ color: `${linkColor}` }}
+            className="hidden md:flex space-x-4"
+          >
+            <li className="p-4 text-sm uppercase hover:border-b shadow-gray-400 cursor-pointer hover:scale-110 ease-in duration-100">
               <Link href="/">Home</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="p-4 text-sm uppercase hover:border-b shadow-gray-400 cursor-pointer hover:scale-110 ease-in duration-100">
               <Link href="/#about">About</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="p-4 text-sm uppercase hover:border-b shadow-gray-400 cursor-pointer hover:scale-110 ease-in duration-100">
               <Link href="/#skills">Skills</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="p-4 text-sm uppercase hover:border-b shadow-gray-400 cursor-pointer hover:scale-110 ease-in duration-100">
               <Link href="/#projects">Projects</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="p-4 text-sm uppercase hover:border-b shadow-gray-400 cursor-pointer hover:scale-110 ease-in duration-100">
               <Link href="/resume">Resume</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="p-4 text-sm uppercase hover:border-b shadow-gray-400 cursor-pointer hover:scale-110 ease-in duration-100">
               <Link href="/#contact">Contact</Link>
             </li>
           </ul>
