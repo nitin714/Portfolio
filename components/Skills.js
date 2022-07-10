@@ -41,7 +41,7 @@ const Skills = () => {
           <SkillItem img={Matplotlib} title="Matplotlib" />
           <SkillItem img={BeautifulSoup} title="Beautiful Soup" />
           <SkillItem img={SQL} title="SQL" />
-          <SkillItem img={D3} title="D3" />
+          <SkillItem img={D3} title="D3.js" />
         </div>
       </div>
     </div>
