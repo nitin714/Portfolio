@@ -1,24 +1,30 @@
 import Image from "next/image";
 import React from "react";
-import netflixImg from "../public/assets/projects/netflix.png";
+import airbnbImg from "../public/assets/projects/airbnb.png";
 import { RiRadioButtonFill } from "react-icons/ri";
+import { TbArrowBackUp } from "react-icons/tb";
 import Link from "next/link";
 
-const netflix = () => {
+function airbnb() {
   return (
     <div className="w-full">
-      <div className="w-screen h-[50vh] relative">
+      <div className="w-full h-[50vh] relative">
         <div className="absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10" />
         <Image
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={netflixImg}
+          src={airbnbImg}
           alt="/"
         />
+        <div className="absolute top-[20%] left-[12%] translate-x-[-50%] translate-y-[-50%] z-10 p-4 bg-white rounded-full">
+          <Link href="/#projects">
+            <TbArrowBackUp size={22} />
+          </Link>
+        </div>
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Netflix Clone</h2>
-          <h3>React JS / Tailwind / Firebase</h3>
+          <h2 className="py-2">Airbnb Clone</h2>
+          <h3>Next JS / Tailwind</h3>
         </div>
       </div>
 
@@ -27,23 +33,20 @@ const netflix = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I built this application in React JS and is hosted on GitHub pages.
-            This app features user authentication with firebase as well as the
-            firestore cloud storage database. This application is pulling movie
-            data from an the IMDB movie API and displaying different categories.
-            It features horizontal sliding and a featured selection. The
-            useContext hook is also being implemented for app-wide state
-            management.
+            This app was built using React JS and is hosted on Firebase. Users
+            are able to search properties based on an Address, City, or ZIP code
+            to retrieve a list of active properties currently for sale. You will
+            be able to view property information as well as the specific
+            location of the property integrated with the Google Maps API. User
+            authentication is available so you can signup and signin to your
+            account with an email address in order to save your favorite
+            properties. This is made possible with Zillow API.
           </p>
-          <a
-            href="https://github.com/fireclint/netflix-react-tailwind"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="/" target="_blank" rel="noreferrer">
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
           <a
-            href="https://netflicks-1f991.web.app/"
+            href="https://airbnb-clone-delta-navy.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
@@ -55,7 +58,7 @@ const netflix = () => {
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> React
+                <RiRadioButtonFill className="pr-1" /> Next
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Tailwind
@@ -63,21 +66,15 @@ const netflix = () => {
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Javascript
               </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Firebase
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> IMDB API
-              </p>
             </div>
           </div>
         </div>
-        <Link href="/#projects">
+        {/* <Link href="/#projects">
           <p className="underline cursor-pointer">Back</p>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
-};
+}
 
-export default netflix;
+export default airbnb;

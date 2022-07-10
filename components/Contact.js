@@ -7,7 +7,7 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import ContactImg from "../public/assets/contact.jpg";
 
-const Contact = () => {
+function Contact() {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
@@ -181,6 +181,6 @@ const Contact = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Contact;
