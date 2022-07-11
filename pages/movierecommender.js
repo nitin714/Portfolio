@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import olympicsanalysisImg from "../public/assets/projects/olympicsanalysis.png";
+import movierecommenderImg from "../public/assets/projects/movierecommender.png";
 import { TbArrowBackUp } from "react-icons/tb";
 import { RiRadioButtonFill } from "react-icons/ri";
 
