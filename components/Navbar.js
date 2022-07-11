@@ -180,9 +180,9 @@ const Navbar = () => {
               <p className="uppercase tracking-widest text-[#5651e5]">
                 Let&#39;s Connect
               </p>
-              <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
+              <div className="flex items-center space-x-10 my-4 w-full sm:w-[80%]">
                 <a
-                  href="https://www.linkedin.com/in/clint-briley-50056920a/"
+                  href="https://www.linkedin.com/in/nitin-vadhiya-b0226113a/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -191,7 +191,7 @@ const Navbar = () => {
                   </div>
                 </a>
                 <a
-                  href="https://github.com/fireclint"
+                  href="https://github.com/nitin714"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -208,7 +208,7 @@ const Navbar = () => {
                     <AiOutlineCodepen />
                   </div>
                 </a>
-                <Link href="/#contact">
+                {/* <Link href="/#contact">
                   <div
                     onClick={() => setNav(!nav)}
                     className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
@@ -223,7 +223,7 @@ const Navbar = () => {
                   >
                     <BsFillPersonLinesFill />
                   </div>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

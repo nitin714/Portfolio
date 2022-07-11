@@ -50,7 +50,7 @@ function Contact() {
               </div>
               <div>
                 <p className="uppercase pt-8">Connect With Me</p>
-                <div className="flex items-center justify-between py-4">
+                <div className="flex items-center justify-between py-4 px-16">
                   <a
                     href="https://www.linkedin.com/in/nitin-vadhiya-b0226113a/"
                     target="_blank"
@@ -79,16 +79,16 @@ function Contact() {
                     </div>
                   </a>
 
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                  {/* <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <AiOutlineMail />
-                  </div>
-                  <Link href="/resume">
+                  </div> */}
+                  {/* <Link href="/resume">
                     <a>
                       <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                         <BsFillPersonLinesFill />
                       </div>
                     </a>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
