@@ -18,31 +18,31 @@ const Projects = () => {
           <ProjectItem
             title="Airbnb Clone"
             backgroundImg={airbnbImg}
-            projectUrl="/airbnb"
+            projectUrl="https://airbnb-clone-delta-navy.vercel.app/"
             tech="Next JS"
           />
           <ProjectItem
             title="Netflix Clone"
             backgroundImg={netflixImg}
-            projectUrl="/netflix"
+            projectUrl="https://netflicks-1f991.web.app/"
             tech="React JS"
           />
           <ProjectItem
             title="Olympics Analysis"
             backgroundImg={olympicsanalysisImg}
-            projectUrl="/olympicsanalysis"
+            projectUrl="https://olypmdataanalysis.herokuapp.com/"
             tech="Python"
           />
           <ProjectItem
             title="Book Recommender"
             backgroundImg={bookrecommenderImg}
-            projectUrl="/bookrecommender"
+            projectUrl="https://bookrecommendsystem.herokuapp.com/"
             tech="Python"
           />
           <ProjectItem
             title="Movie Recommender"
             backgroundImg={movierecommenderImg}
-            projectUrl="/movierecommender"
+            projectUrl="https://movierecommenderapple.herokuapp.com/"
             tech="Python"
           />
         </div>
