@@ -32,18 +32,7 @@ function olympicsanalysis() {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
-          <p>
-            I built this app to demonstrate knowledge working in React JS and
-            accessing API endpoints. This app was built using React JS and is
-            hosted on Firebase. This application supports user authentication
-            using firebase. Users are able to create a new account using their
-            email address and can then sign in to save coins to a user specific
-            list. This is made possble by creating a firestore cloud storage
-            database at the time of user registration. Another feature of this
-            application is dynamic routing through the &quot;React Router
-            DOM&quot; package. This application was built using the Coin Gecko
-            API.
-          </p>
+          <p>Pending...</p>
           <a href="/" target="_blank" rel="noreferrer">
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
