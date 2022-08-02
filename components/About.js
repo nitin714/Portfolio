@@ -13,17 +13,18 @@ function About() {
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
-            I have spent the last 2.6 years as the front end web developer. I'm
-            Data Science enthusiast so following the path i've chosen. Currently
-            learning data science and react, nextjs, tailwind for web
-            development.
+            I'm a front-end developer and data science enthusiast. I love
+            playing with UI/UX when developing web apps. But storytelling with
+            data is more fun by analysing and visualizing. I have experience of
+            2.8 years as the front-end web developer. Currently I'm learning
+            data science and react, nextjs, tailwind for web development.
           </p>
           <p className="py-2 text-gray-600">
             Fascinated with how intricate data science is, I was quickly drawn
             to learn more. I started learning python and related tools like
-            pandas, numpy, scikit-learn and more for data science. I am now
-            spending my time building projects with Next JS, Firebase, tailwind
-            and learning new technologies.
+            pandas, numpy, scikit-learn, also I am spending my time building
+            projects with Next JS, Firebase, tailwind and learning new
+            technologies.
           </p>
           <Link href="/#projects">
             <p className="w-72 py-2 text-gray-600 underline cursor-pointer">
@@ -31,7 +32,7 @@ function About() {
             </p>
           </Link>
         </div>
-        <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 md:hover:scale-105 ease-in duration-300">
+        <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 md:hover:scale-105 ease-out duration-200">
           <Image src={AboutImg} className="rounded-xl" alt="/" />
         </div>
       </div>

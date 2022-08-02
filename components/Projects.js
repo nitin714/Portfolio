@@ -32,13 +32,13 @@ const Projects = () => {
           <ProjectItem
             title="Instagram Clone"
             backgroundImg={instagramImg}
-            projectUrl="https://netflicks-1f991.web.app/"
+            projectUrl="https://instagram-clone-beta-sepia.vercel.app/"
             tech="Next JS"
           />
           <ProjectItem
             title="Weather App"
             backgroundImg={weatherappImg}
-            projectUrl="https://netflicks-1f991.web.app/"
+            projectUrl="https://weather-web-app-seven.vercel.app/"
             tech="Next JS"
           />
           <ProjectItem
