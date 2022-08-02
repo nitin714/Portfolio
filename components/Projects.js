@@ -4,6 +4,8 @@ import netflixImg from "../public/assets/projects/netflix.png";
 import olympicsanalysisImg from "../public/assets/projects/olympicsanalysis.png";
 import bookrecommenderImg from "../public/assets/projects/bookrecommender.png";
 import movierecommenderImg from "../public/assets/projects/movierecommender.png";
+import instagramImg from "../public/assets/projects/instagram.png";
+import weatherappImg from "../public/assets/projects/weatherapp.png";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -26,6 +28,18 @@ const Projects = () => {
             backgroundImg={netflixImg}
             projectUrl="https://netflicks-1f991.web.app/"
             tech="React JS"
+          />
+          <ProjectItem
+            title="Instagram Clone"
+            backgroundImg={instagramImg}
+            projectUrl="https://netflicks-1f991.web.app/"
+            tech="Next JS"
+          />
+          <ProjectItem
+            title="Weather App"
+            backgroundImg={weatherappImg}
+            projectUrl="https://netflicks-1f991.web.app/"
+            tech="Next JS"
           />
           <ProjectItem
             title="Olympics Analysis"
