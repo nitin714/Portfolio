@@ -89,12 +89,12 @@ const Navbar = () => {
             <li className="p-4 text-sm uppercase hover:border-b shadow-gray-400 cursor-pointer hover:scale-110 ease-in duration-100">
               <Link href="/#projects">Projects</Link>
             </li>
-            <li className="p-4 text-sm uppercase hover:border-b shadow-gray-400 cursor-pointer hover:scale-110 ease-in duration-100">
+            {/* <li className="p-4 text-sm uppercase hover:border-b shadow-gray-400 cursor-pointer hover:scale-110 ease-in duration-100">
               <Link href="/resume">Resume</Link>
             </li>
             <li className="p-4 text-sm uppercase hover:border-b shadow-gray-400 cursor-pointer hover:scale-110 ease-in duration-100">
               <Link href="/#contact">Contact</Link>
-            </li>
+            </li> */}
           </ul>
           {/* Hamburger Icon */}
           <div
