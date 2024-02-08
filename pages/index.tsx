@@ -14,7 +14,7 @@ const Home: NextPage = () => {
         <title>My Portfolio</title>
         <link rel="icon" href="/narutoheadbandsign.webp" />
       </Head>
-      <Navbar />
+      {/* <Navbar /> */}
       <Main />
       <About />
       <Skills />

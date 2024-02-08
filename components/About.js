@@ -12,22 +12,36 @@ function About() {
             About
           </p>
           <h2 className="py-4">Who I Am</h2>
-          <p className="py-2 text-gray-600">
-            I'm a front-end developer and data science enthusiast. I love
-            playing with UI/UX when developing web apps. But storytelling with
-            data is more fun by analysing and visualizing. I have experience of
-            2.8 years as the front-end web developer. Currently I'm learning
-            data science and react, nextjs, tailwind for web development.
+          <p className="py-2 text-gray-600 font-bold">
+            Front-End Developer | 4 years of experience
+            crafting user-centric experiences.
           </p>
           <p className="py-2 text-gray-600">
-            Fascinated with how intricate data science is, I was quickly drawn
-            to learn more. I started learning python and related tools like
-            pandas, numpy, scikit-learn, also I am spending my time building
-            projects with Next JS, Firebase, tailwind and learning new
-            technologies.
+            I'm a passionate Front-End Developer with a proven track record of
+            building intuitive and visually captivating user interfaces. My
+            quick learning ability allows me to seamlessly adapt to new
+            technologies while maintaining a keen eye for detail.
           </p>
+          <p className="py-2 text-gray-600">
+            Analytical, innovative, and motivated web development professional
+            with experience in customer service, team collaboration, and
+            organizational effectiveness in fast-paced and challenging
+            environments. Adept at developing strategies and driving streamlined
+            operations. Diverse analytical skills, effective team collaboration,
+            and relationship building. Consummate professional, and motivated
+            team member, with solid interpersonal abilities and complex
+            problem-solving skills. Effective and proven track record of
+            critical thinking, idea generation, and optimizing efficiencies.
+          </p>
+          {/* <p className="py-2 text-gray-600">
+            Beyond code, I'm a Data Science enthusiast constantly expanding my skillset. This unique
+            blend of technical expertise and analytical thinking enables me to
+            approach problems from multiple angles and find innovative
+            solutions. I'm driven by a desire to continuously learn and grow,
+            making me a valuable asset to any team.
+          </p> */}
           <Link href="/#projects">
-            <p className="w-72 py-2 text-gray-600 underline cursor-pointer">
+            <p className="w-100 py-2 text-gray-600 underline cursor-pointer text-xl">
               Check out some of my latest projects.
             </p>
           </Link>

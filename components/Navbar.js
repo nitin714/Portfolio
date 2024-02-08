@@ -10,7 +10,7 @@ import {
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 // import { useRouter } from 'next/router';
-// import NavLogo from "../public/assets/navLogo.png";
+import NavLogo from "../public/assets/navLogo2.webp";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -59,19 +59,18 @@ const Navbar = () => {
           : "fixed w-full h-20 z-[100]"
       }
     >
-      <div className="py-4 flex justify-between w-full h-full px-2 2xl:px-16">
-        <div />
-        {/* <Link href="/">
+      <div className='flex justify-between items-center mt-2 w-full h-full px-2 2xl:px-16'>
+        <Link href="/">
           <a>
             <Image
               src={NavLogo}
               alt="/"
-              width="125"
-              height="50"
+              width="70"
+              height="70"
               className="cursor-pointer"
             />
           </a>
-        </Link> */}
+        </Link>
         <div>
           <ul
             style={{ color: `${linkColor}` }}
@@ -89,10 +88,10 @@ const Navbar = () => {
             <li className="p-4 text-sm uppercase hover:border-b shadow-gray-400 cursor-pointer hover:scale-110 ease-in duration-100">
               <Link href="/#projects">Projects</Link>
             </li>
-            {/* <li className="p-4 text-sm uppercase hover:border-b shadow-gray-400 cursor-pointer hover:scale-110 ease-in duration-100">
+            <li className="p-4 text-sm uppercase hover:border-b shadow-gray-400 cursor-pointer hover:scale-110 ease-in duration-100">
               <Link href="/resume">Resume</Link>
             </li>
-            <li className="p-4 text-sm uppercase hover:border-b shadow-gray-400 cursor-pointer hover:scale-110 ease-in duration-100">
+            {/* <li className="p-4 text-sm uppercase hover:border-b shadow-gray-400 cursor-pointer hover:scale-110 ease-in duration-100">
               <Link href="/#contact">Contact</Link>
             </li> */}
           </ul>

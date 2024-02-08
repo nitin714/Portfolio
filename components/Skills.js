@@ -1,12 +1,13 @@
 import React from "react";
 import Html from "../public/assets/skills/html.png";
 import Css from "../public/assets/skills/css.png";
+import Mui from "../public/assets/skills/materialui.png";
 import Javascript from "../public/assets/skills/javascript.png";
 import ReactImg from "../public/assets/skills/react.png";
 import Tailwind from "../public/assets/skills/tailwind.png";
 import Github from "../public/assets/skills/github1.png";
 import Firebase from "../public/assets/skills/firebase.png";
-import NextJS from "../public/assets/skills/nextjs.png";
+// import NextJS from "../public/assets/skills/nextjs.png";
 import Python from "../public/assets/skills/python.svg";
 import Pandas from "../public/assets/skills/pandas.svg";
 import Numpy from "../public/assets/skills/numpy.svg";
@@ -26,22 +27,23 @@ const Skills = () => {
         </p>
         <h2 className="py-4">What I Can Do</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+          <SkillItem img={ReactImg} title="React" />
+          <SkillItem img={Javascript} title="Javascript" />
+          <SkillItem img={Python} title="Python" />
+          <SkillItem img={SQL} title="SQL" />
+          <SkillItem img={Mui} title="Material UI" />
+          <SkillItem img={Tailwind} title="Tailwind" />
           <SkillItem img={Html} title="HTML" />
           <SkillItem img={Css} title="CSS" />
-          <SkillItem img={Javascript} title="Javascript" />
-          <SkillItem img={ReactImg} title="React" />
-          <SkillItem img={Tailwind} title="Tailwind" />
-          <SkillItem img={Firebase} title="Firebase" />
-          <SkillItem img={Github} title="Github" />
-          <SkillItem img={NextJS} title="NextJS" />
-          <SkillItem img={Python} title="Python" />
+          {/* <SkillItem img={Firebase} title="Firebase" /> */}
+          {/* <SkillItem img={NextJS} title="NextJS" /> */}
           <SkillItem img={Pandas} title="Pandas" />
           <SkillItem img={Numpy} title="Numpy" />
-          <SkillItem img={ScikitLearn} title="Scikit Learn" />
           <SkillItem img={Matplotlib} title="Matplotlib" />
-          <SkillItem img={BeautifulSoup} title="Beautiful Soup" />
-          <SkillItem img={SQL} title="SQL" />
-          <SkillItem img={D3} title="D3.js" />
+          <SkillItem img={ScikitLearn} title="Scikit Learn" />
+          {/* <SkillItem img={BeautifulSoup} title="Beautiful Soup" /> */}
+          <SkillItem img={Github} title="Github" />
+          {/* <SkillItem img={D3} title="D3.js" /> */}
         </div>
       </div>
     </div>
