@@ -20,44 +20,44 @@ const Projects = () => {
           <ProjectItem
             title="Airbnb Clone"
             backgroundImg={airbnbImg}
-            projectUrl="https://airbnb-clone-delta-navy.vercel.app/"
-            tech="Next JS"
+            projectUrl="https://github.com/nitin714/Airbnb-clone"
+            tech="NextJS, TailwindCSS, Mapbox, ..."
           />
           <ProjectItem
             title="Netflix Clone"
             backgroundImg={netflixImg}
-            projectUrl="https://netflicks-1f991.web.app/"
-            tech="React JS"
+            projectUrl="https://github.com/nitin714/netflix-clone"
+            tech="React JS, Axios, Google Cloud Platform, Firebase, ..."
           />
           <ProjectItem
             title="Instagram Clone"
             backgroundImg={instagramImg}
-            projectUrl="https://instagram-clone-beta-sepia.vercel.app/"
-            tech="Next JS"
+            projectUrl="https://github.com/nitin714/Instagram-clone"
+            tech="Next JS, TailwindCSS, Recoil, Google Cloud Platform, Firebase, ..."
           />
           <ProjectItem
             title="Weather App"
             backgroundImg={weatherappImg}
-            projectUrl="https://weather-web-app-seven.vercel.app/"
-            tech="Next JS"
+            projectUrl="https://github.com/nitin714/WeatherWebApp"
+            tech="Next JS, TailwindCSS, Axios, ..."
           />
           <ProjectItem
             title="Olympics Analysis"
             backgroundImg={olympicsanalysisImg}
-            projectUrl="https://olypmdataanalysis.herokuapp.com/"
-            tech="Python"
+            projectUrl="https://github.com/nitin714/OlympicsDataAnalysis"
+            tech="Python, Notebook, Streamlit, Pandas, Seaborn, Matplotlib, ..."
           />
           <ProjectItem
             title="Book Recommender"
             backgroundImg={bookrecommenderImg}
-            projectUrl="https://bookrecommendsystem.herokuapp.com/"
-            tech="Python"
+            projectUrl="https://github.com/nitin714/BookRecommendation"
+            tech="Python, Notebook, Flask, Pandas, ..."
           />
           <ProjectItem
             title="Movie Recommender"
             backgroundImg={movierecommenderImg}
-            projectUrl="https://movierecommenderapple.herokuapp.com/"
-            tech="Python"
+            projectUrl="https://github.com/nitin714/MovieRecommender"
+            tech="Python, Notebook, Streamlit, Pandas, ..."
           />
         </div>
       </div>

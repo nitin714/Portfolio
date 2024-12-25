@@ -13,7 +13,7 @@ function About() {
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600 font-bold">
-            Front-End Developer | 4 years of experience
+            4 years of experience
             crafting user-centric experiences.
           </p>
           <p className="py-2 text-gray-600">
@@ -40,11 +40,6 @@ function About() {
             solutions. I'm driven by a desire to continuously learn and grow,
             making me a valuable asset to any team.
           </p> */}
-          <Link href="/#projects">
-            <p className="w-100 py-2 text-gray-600 underline cursor-pointer text-xl">
-              Check out some of my latest projects.
-            </p>
-          </Link>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 md:hover:scale-105 ease-out duration-200">
           <Image src={AboutImg} className="rounded-xl" alt="/" />

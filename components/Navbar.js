@@ -10,7 +10,7 @@ import {
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 // import { useRouter } from 'next/router';
-import NavLogo from "../public/assets/navLogo2.webp";
+import NavLogo from "../public/assets/navLogo5.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -76,24 +76,24 @@ const Navbar = () => {
             style={{ color: `${linkColor}` }}
             className="hidden md:flex space-x-4"
           >
-            <li className="p-4 text-sm uppercase hover:border-b shadow-gray-400 cursor-pointer hover:scale-110 ease-in duration-100">
-              <Link href="/">Home</Link>
+            <li >
+              <a className="p-4 text-sm uppercase hover:border-b shadow-gray-400 cursor-pointer hover:scale-110 ease-in duration-100" href="/#">Home</a>
             </li>
-            <li className="p-4 text-sm uppercase hover:border-b shadow-gray-400 cursor-pointer hover:scale-110 ease-in duration-100">
-              <Link href="/#about">About</Link>
+            <li >
+              <a className="p-4 text-sm uppercase hover:border-b shadow-gray-400 cursor-pointer hover:scale-110 ease-in duration-100" href="/#about">About</a>
             </li>
-            <li className="p-4 text-sm uppercase hover:border-b shadow-gray-400 cursor-pointer hover:scale-110 ease-in duration-100">
-              <Link href="/#skills">Skills</Link>
+            <li >
+              <a className="p-4 text-sm uppercase hover:border-b shadow-gray-400 cursor-pointer hover:scale-110 ease-in duration-100" href="/#skills">Skills</a>
             </li>
-            <li className="p-4 text-sm uppercase hover:border-b shadow-gray-400 cursor-pointer hover:scale-110 ease-in duration-100">
-              <Link href="/#projects">Projects</Link>
+            <li >
+              <a className="p-4 text-sm uppercase hover:border-b shadow-gray-400 cursor-pointer hover:scale-110 ease-in duration-100" href="/#projects">Projects</a>
             </li>
-            <li className="p-4 text-sm uppercase hover:border-b shadow-gray-400 cursor-pointer hover:scale-110 ease-in duration-100">
-              <Link href="/resume">Resume</Link>
-            </li>
-            {/* <li className="p-4 text-sm uppercase hover:border-b shadow-gray-400 cursor-pointer hover:scale-110 ease-in duration-100">
-              <Link href="/#contact">Contact</Link>
+            {/* <li >
+              <a className="p-4 text-sm uppercase hover:border-b shadow-gray-400 cursor-pointer hover:scale-110 ease-in duration-100" href="/resume">Resume</a>
             </li> */}
+            <li >
+              <a className="p-4 text-sm uppercase hover:border-b shadow-gray-400 cursor-pointer hover:scale-110 ease-in duration-100" href="/contact">Contact</a>
+            </li>
           </ul>
           {/* Hamburger Icon */}
           <div
@@ -164,12 +164,12 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              <Link href="/resume">
+              {/* <Link href="/resume">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Resume
                 </li>
-              </Link>
-              <Link href="/#contact">
+              </Link> */}
+              <Link href="/contact">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Contact
                 </li>
@@ -207,7 +207,7 @@ const Navbar = () => {
                     <AiOutlineCodepen />
                   </div>
                 </a>
-                {/* <Link href="/#contact">
+                <Link href="/contact">
                   <div
                     onClick={() => setNav(!nav)}
                     className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
@@ -215,7 +215,7 @@ const Navbar = () => {
                     <AiOutlineMail />
                   </div>
                 </Link>
-                <Link href="/resume">
+                {/* <Link href="/resume">
                   <div
                     onClick={() => setNav(!nav)}
                     className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
