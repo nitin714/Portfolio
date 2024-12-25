@@ -17,21 +17,20 @@ function About() {
             crafting user-centric experiences.
           </p>
           <p className="py-2 text-gray-600">
-            I'm a passionate Front-End Developer with a proven track record of
+            I'm a passionate developer with a proven track record of
             building intuitive and visually captivating user interfaces. My
             quick learning ability allows me to seamlessly adapt to new
             technologies while maintaining a keen eye for detail.
           </p>
           <p className="py-2 text-gray-600">
-            Analytical, innovative, and motivated web development professional
-            with experience in customer service, team collaboration, and
-            organizational effectiveness in fast-paced and challenging
-            environments. Adept at developing strategies and driving streamlined
-            operations. Diverse analytical skills, effective team collaboration,
-            and relationship building. Consummate professional, and motivated
-            team member, with solid interpersonal abilities and complex
-            problem-solving skills. Effective and proven track record of
-            critical thinking, idea generation, and optimizing efficiencies.
+          Experienced Full Stack Developer and Aspiring Data Scientist with 4+ years of experience building and maintaining 
+          scalable web applications. Adept in React, JavaScript, NextJS, TypeScript, Python, SQL, and RESTful APIs, with 
+          hands-on experience in machine learning, data analysis, and frameworks such as PyTorch. Skilled in Agile 
+          methodologies and DevOps processes, showcasing a holistic approach to development. I am passionate about 
+          solving complex problems, applying data-driven solutions, and continuously learning new skills. 
+          Currently I am expanding my expertise in data science through self-directed learning and hands-on projects. 
+          With a strong sense of accountability and a track record of working on diverse projects in cross-functional teams, 
+          I bring a detail-oriented and innovative mindset to align technical solutions with business goals.
           </p>
           {/* <p className="py-2 text-gray-600">
             Beyond code, I'm a Data Science enthusiast constantly expanding my skillset. This unique
